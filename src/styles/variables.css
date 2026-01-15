@@ -1,0 +1,82 @@
+:root {
+  /* Colors - Light theme */
+  --color-bg: #ffffff;
+  --color-bg-secondary: #eff6ff;
+  --color-bg-info: #f0f9ff;
+  --color-bg-warning: #fef3c7;
+  --color-text: #1f2937;
+  --color-text-muted: #6b7280;
+  --color-text-info: #0c4a6e;
+  --color-text-warning: #92400e;
+
+  /* Brand colors */
+  --color-primary: #1e40af;
+  --color-primary-light: #3b82f6;
+  --color-success: #10b981;
+  --color-success-light: #86efac;
+  --color-danger: #dc2626;
+  --color-danger-light: #fca5a5;
+  --color-warning: #fbbf24;
+  --color-purple: #7c3aed;
+  --color-purple-light: #c4b5fd;
+
+  /* Chart colors */
+  --color-chart-balance: #3b82f6;
+  --color-chart-balance-fill: #93c5fd;
+  --color-chart-interest: #ef4444;
+  --color-chart-interest-fill: #fca5a5;
+  --color-chart-principal: #10b981;
+  --color-chart-principal-fill: #86efac;
+  --color-chart-lumpsum: #8b5cf6;
+  --color-chart-lumpsum-fill: #c4b5fd;
+
+  /* Borders */
+  --color-border: #d1d5db;
+  --color-border-info: #0ea5e9;
+  --color-border-warning: #fbbf24;
+
+  /* Spacing */
+  --spacing-xs: 5px;
+  --spacing-sm: 8px;
+  --spacing-md: 15px;
+  --spacing-lg: 20px;
+  --spacing-xl: 30px;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  /* Font sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-base: 14px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+
+  /* Breakpoints (for reference in media queries) */
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --color-bg: #111827;
+  --color-bg-secondary: #1f2937;
+  --color-bg-info: #1e3a5f;
+  --color-bg-warning: #422006;
+  --color-text: #f9fafb;
+  --color-text-muted: #9ca3af;
+  --color-text-info: #7dd3fc;
+  --color-text-warning: #fcd34d;
+
+  --color-primary: #3b82f6;
+  --color-primary-light: #60a5fa;
+  --color-border: #374151;
+  --color-border-info: #0284c7;
+  --color-border-warning: #d97706;
+
+  /* Adjust chart colors for dark mode */
+  --color-chart-balance: #60a5fa;
+  --color-chart-balance-fill: #1e40af;
+}
